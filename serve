@@ -1,0 +1,6 @@
+if [[ $NODE_ENV == 'production' ]]
+then
+  yarn && yarn start
+else
+  yarn && yarn watch
+fi

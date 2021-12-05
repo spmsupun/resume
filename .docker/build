@@ -1,0 +1,7 @@
+export $(cat .env)
+
+if [[ $NODE_ENV == 'production' ]]; then
+  docker-compose -f docker-compose.prod.yml up -d --build nginx
+else
+  docker-compose up --force-recreate
+fi
