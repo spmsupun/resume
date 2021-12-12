@@ -14,9 +14,10 @@
           .dates(style='margin-top: 2px;')
             span.dateFrom !{list_item.from}
             if list_item.to
-              span.dateSeparator /
+              div.dateSeparator -
               span.dateTo !{list_item.to}
             else
+              div.dateSeparator -
               span.dateTo  Present
         h5
           p !{list_item.title}

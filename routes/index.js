@@ -25,14 +25,13 @@ router.post('/say/hello', (req, res, next) => {
 });
 
 router.get('/', (req, res) => {
-
     res.locals.pages =
         [
             {
                 header: {
                     first_name: 'Supun',
                     last_name: 'Praneeth',
-                    job: 'Software Engineer'
+                    job: 'Full-stack Developer/DevOps'
                 },
                 section_left: [
                     {
@@ -47,40 +46,52 @@ router.get('/', (req, res) => {
                         icon: 'fa-briefcase',
                         list: [
                             {
-                                first: 'Senior Software Engineer',
-                                from: '2020-04',
-                                to: '2021-05',
+                                first: 'Software Engineer/DevOps Engineer (Consultant)',
+                                from: 'Nov 2020',
+                                to: 'Present',
                                 list: {
-                                    name: '99X Technology <br><br>',
+                                    name: 'Global Airport Concierge  <br><br>',
                                     list: [
-                                        'Design and develop frontend elements using angular.',
-                                        'Implement well-designed, testable, efficient code by using best software development practices.',
-                                        'Optimization of the application for maximum speed and scalability.',
-                                        'Design and implementation of data storage solutions.',
-                                        'Integrate data from various back-end services and databases.',
-                                        'Create and maintain software technical documentation.',
-                                        'Stay plugged into emerging technologies/industry trends and apply them into operations and activities.'
+                                        'Design and develop frontend and backend components.',
+                                        'Implement well-designed, testable, efficient code by using the best software development practices.',
+                                        'Building and setting up new development tools and infrastructure',
+                                        'Working on ways to automate and improve development and release processes',
+                                        'Ensuring that systems are safe and secure against cyber security threats',
+                                        'Clearly and regularly communicate with management and technical support colleagues',
+                                        'Maintains all the cloud servers',
                                     ]
                                 },
                             },
                             {
                                 first: 'Senior Software Engineer',
-                                from: '2018-08',
-                                to: '2020-04',
+                                from: 'Apr 2020',
+                                to: 'May 2021',
+                                list: {
+                                    name: '99X Technology <br><br>',
+                                    list: [
+                                        'Design and develop frontend components.',
+                                        'Implement well-designed, testable, efficient code by using best software development practices.',
+                                        'Optimization of the application for maximum speed and scalability.',
+                                        'Design and implementation of data storage solutions.',
+                                        'Integrate data from various back-end services and databases.',
+                                        'Create and maintain software technical documentation.'
+                                    ]
+                                },
+                            },
+                            {
+                                first: 'Senior Software Engineer',
+                                from: 'Aug 2018',
+                                to: 'Apr 2020',
                                 list: {
                                     name: 'SolomoIT <br> <br>',
                                     list: [
                                         'Integration of user-facing elements developed by front-end developers with server-side logic.',
-                                        'Work closely with Tech Lead, project managers, UX designers, other developers, systems analysts and sales and marketing professionals.',
-                                        'Implement well designed, testable, efficient code by using best software development practices.',
+                                        'Work closely with Tech Lead, project managers, UX designers, other developers, systems analysts, and sales and marketing professionals.',
+                                        'Implement well-designed, testable, efficient code by using the best software development practices.',
                                         'Building reusable code and libraries for future use.',
                                         'Mentoring other developers and handling KT sessions.',
                                         'Optimization of the application for maximum speed and scalability.',
-                                        'Implementation of security and data protection.',
-                                        'Design and implementation of data storage solutions.',
-                                        'Integrate data from various back-end services and databases.',
-                                        'Create and maintain software technical documentation.',
-                                        'Stay plugged into emerging technologies/industry trends and apply them into operations and activities.'
+                                        'Implementation of security and data protection.'
                                     ]
                                 },
                             }
@@ -89,7 +100,7 @@ router.get('/', (req, res) => {
                 ],
                 section_right: [
                     {
-                        img: 'images/profile-4.jpg'
+                        img: 'images/profile.jpg'
                     },
                     {
                         section_name: 'Personal Info',
@@ -142,26 +153,26 @@ router.get('/', (req, res) => {
                     },
                     {
                         section_name: 'Skills',
-                        icon: 'fa-user-alt',
+                        icon: 'fa-cogs',
                         value: '',
                         list: [
                             {
                                 title: 'Expert'
                             },
                             {
-                                value: 'PHP (Laravel)<br/>Javascript (NodeJs,ES6,Flow)<br/> ReactJs (NextJs)<br/> CSS/SCSS<br/>Docker'
+                                value: 'PHP (Laravel)<br/>Javascript (NodeJs, ReactJs)<br/> CSS/SCSS<br/>Docker'
                             },
                             {
                                 title: 'Advance'
                             },
                             {
-                                value: 'Koa.js, Symfony 4, Express.js, Vue.js, Angular, Linux, Git, NestJS'
+                                value: 'Next.js, NestJs, Vue.js, Angular, Linux, Git, Koa.js, Symfony 4, AWS, Gitlab CI/CD, Github Actions'
                             },
                             {
                                 title: 'Familiar With'
                             },
                             {
-                                value: 'Kubernetes, MongoDB, RabbitMQ, AWS, Google Cloud, Vagrant, Gitlab CI/CD, Github Actions, Microservices, TDD, SOLID Principles'
+                                value: 'Kubernetes, MongoDB, Google Cloud, Microservices, TDD, SOLID Principles'
                             }
                         ]
                     }
@@ -175,38 +186,34 @@ router.get('/', (req, res) => {
                         list: [
                             {
                                 first: 'Tech Lead',
-                                from: '2016-08',
-                                to: '2018-08',
+                                from: 'Aug 2016',
+                                to: 'Aug 201',
                                 list: {
                                     name: 'Apple Holidays <br> <br>',
                                     list: [
-                                        'Design, develop, test and implement new applications.',
+                                        'Design, develop, test, and implement new applications.',
                                         'Train interns.',
                                         'Clearly and regularly communicate with management and technical support colleagues.',
-                                        'Managing servers (e-mail, database and web servers).',
                                         'Design and update software database.',
-                                        'Analyze user requirements and convert requirements to design documents.'
+                                        'Analyze user requirements and convert requirements to design documents.',
                                     ]
                                 },
                             },
                             {
                                 first: 'Full-stack developer',
                                 icon: 'fa-briefcase',
-                                from: '2014-10',
-                                to: '2015-08',
+                                from: 'Oct 2014',
+                                to: 'Aug 2015',
                                 list: {
                                     name: 'Apple Holidays <br> <br>',
                                     list: [
-                                        'Develop, test and implement new applications.',
-                                        'Customizing systems/application made by the company.',
-                                        'Design and update software database.',
-                                        'Implementation of security and data protection.',
-                                        'Design and implementation of data storage solutions.',
-                                        'Integrate data from various back-end services and databases.',
-                                        'Create and maintain software technical documentation.',
-                                        'Worked closely in the planning, design, and delivery of software products and services.',
-                                        'Presented software design issues, questions, and suggestions to arrive at alternative courses of action.',
-                                        'Provided assistance to Customer Support when troubleshooting technical issues of clients.'
+                                        'Develop, test, and implement new applications',
+                                        'Customizing systems/applications made by the company',
+                                        'Design and update software database',
+                                        'Implementation of security and data protection',
+                                        'Design and implementation of data storage solutions',
+                                        'Integrate data from various back-end services and databases',
+                                        'Worked closely in the planning, design, and delivery of software products and services'
                                     ]
                                 },
                             }
@@ -217,7 +224,8 @@ router.get('/', (req, res) => {
                         icon: 'fa-graduation-cap',
                         list: [
                             {
-                                from: '2019-05',
+                                from: 'May 2019',
+                                to: 'Nov 2021',
                                 section_name: 'Education',
                                 title: 'Master of Science in Information Technology',
                                 desc: 'Cardiff Metropolitan University'
