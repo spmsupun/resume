@@ -37,9 +37,10 @@ router.get('/', (req, res) => {
                     {
                         section_name: 'Summary',
                         icon: 'fa-bullhorn',
-                        desc: `I enjoy turning complex problems into simple and beautiful codes. I started coding 13 years ago when 
-                        I was in school and have more than 6 years of professional experience in creating web-based projects in multiple industries such as leisure, airline, travel.
-                        I am eager to learn new technologies and currently learning Kubernetes and AWS.`,
+                        desc: `I enjoy turning complex problems into simple and beautiful codes. 
+                        I started coding when I was 16 years old in school and have more than 
+                        7 years of professional experience. I have been involved in all the phases 
+                        of the Software Development Life Cycle and worked on the frontend, backend, and DevOps`,
                     },
                     {
                         section_name: 'Experience',
